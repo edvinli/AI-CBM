@@ -3,7 +3,7 @@
 
 In this repo we open source models trained to predict auction end prices using online auction data from Sweden.
 
-The data used in this study was collected from the clothing category from a Swedish online auction site (Tradera). The whole dataset contains 88,511 items and was randomly split into training set of size 70,807 and a test set of size 17,704. Each item in the dataset has an end price, a title description, a text description, and an image, all uploaded by users themselves. The training set was further split into 67,267 (95%) training samples and 3541 (5%) validation samples.
+The data used in this study was collected from the clothing category from a Swedish online auction site (Tradera). The whole dataset contains 88,511 items and was randomly split into a training set of size 70,807 and a test set of size 17,704. Each item in the dataset has an end price, a title description, a text description, and an image, all uploaded by users themselves. The training set was further split into 67,267 (95%) training samples and 3541 (5%) validation samples.
 
 For the text descriptions, we have experimented with three different types of representations: unigrams, bigrams and [Swedish CLIP embeddings](https://github.com/FreddeFrallan/Multilingual-CLIP). We use the pre-trained CLIP vision model (a ResNet RN50x4) to create image representations.
 
