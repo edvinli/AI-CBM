@@ -13,9 +13,9 @@ Three models are available in this repo:
 
 * A text model with bigram input representations (dim=100,000)
 * A vision model with pre-trained ResNet RN50x4 images as input (dim=640)
-* A text+vision model which uses both of the above representations as input
+* A text+vision model which uses both of the above representations as input (dim=100,640)
 
-The model is a one layer MLP, which either takes bigram input representations of Swedish text (DIM_IN=100,000) a [pre-trained CLIP RN50x4](https://github.com/openai/CLIP) image representation (DIM_IN=640) or a concatenation of them both (DIM_IN=100,640).
+The model is a one layer MLP, which either takes bigram input representations of Swedish text (DIM_IN=100,000) a [pre-trained CLIP RN50x4](https://github.com/openai/CLIP) image representation (DIM_IN=640) or a concatenation of them both, text + img (DIM_IN=100,640).
 
 Pytorch models (.pth) can be found [here](https://github.com/edvinli/AI-CBM/tree/main/models). Read more about how to load Pytorch models [here](https://pytorch.org/tutorials/beginner/saving_loading_models.html). 
 
