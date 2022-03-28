@@ -48,3 +48,5 @@ Pytorch models (.pth) can be found [here](https://github.com/edvinli/AI-CBM/tree
 | Clip text+image | 33.86 | 53.06 |
 | Bigram | 36.08 | 56.03 |
 | Bigram + clip image | 37.2 | 57.77 |
+
+This can be compared to mean human accuracy of 18.75%, where 32 humans tried to estimate the end prices using only images.
