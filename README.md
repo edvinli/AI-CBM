@@ -24,7 +24,7 @@ Pytorch models (.pth) can be found [here](https://github.com/edvinli/AI-CBM/tree
     n_classes = 9
     class CbmClassifier(nn.Module):
 
-    def __init__(self, n_classes, vocab_size):
+    def __init__(self, n_classes, DIM_IN):
         super(CbmClassifier, self).__init__()
 
         self.input = nn.Linear(DIM_IN, 256)
