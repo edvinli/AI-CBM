@@ -17,7 +17,9 @@ Three models are available in this repo:
 
 The model is a one layer MLP, which either takes bigram input representations of Swedish text (DIM_IN=100,000) a [pre-trained CLIP RN50x4](https://github.com/openai/CLIP) image representation (DIM_IN=640) or a concatenation of them both (DIM_IN=100,640).
 
-Pytorch models (.pth) can be found [here](https://github.com/edvinli/AI-CBM/tree/main/models). Below follows Pytorch code for the model.
+Pytorch models (.pth) can be found [here](https://github.com/edvinli/AI-CBM/tree/main/models). Read more about how to load Pytorch models [here](https://pytorch.org/tutorials/beginner/saving_loading_models.html). 
+
+Below follows Pytorch code for the model.
 
 
     DIM_IN = 640 #640, 100000 or 100640
