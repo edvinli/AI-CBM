@@ -53,6 +53,19 @@ Below follows Pytorch code for the model.
 
 This can be compared to mean human accuracy of 18.75%, where 32 humans tried to estimate the end prices using only images.
 
+
+| Class | Price range (SEK) | 
+| ----------- | ----------- | 
+| 0 | 1-34 | 
+| 1 | 35-49 | 
+| 2 | 50 | 
+| 3 | 51-79 |
+| 4 | 80-103 |
+| 5 | 104-154 |
+| 6 | 155-249 |
+| 7 | 250-400 |
+| 8 | 400+ |
+
 Confusion matrix of the best perfoming model normalized over predictions. Classes are approximately equal in sizes.
 
 ![confusion_matrix_9classes](https://user-images.githubusercontent.com/16919172/162403537-261fa561-817b-4c6b-a887-b305e71b0e2a.png)
