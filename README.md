@@ -52,3 +52,7 @@ Below follows Pytorch code for the model.
 | Bigram + clip image | 37.2 | 57.77 |
 
 This can be compared to mean human accuracy of 18.75%, where 32 humans tried to estimate the end prices using only images.
+
+Confusion matrix of the best perfoming model normalized over predictions. Classes are approximately equal in sizes.
+[confusion_matrix_9classes.pdf](https://github.com/edvinli/AI-CBM/files/8450350/confusion_matrix_9classes.pdf)
+
