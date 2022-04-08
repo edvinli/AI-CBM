@@ -54,5 +54,5 @@ Below follows Pytorch code for the model.
 This can be compared to mean human accuracy of 18.75%, where 32 humans tried to estimate the end prices using only images.
 
 Confusion matrix of the best perfoming model normalized over predictions. Classes are approximately equal in sizes.
-[confusion_matrix_9classes.pdf](https://github.com/edvinli/AI-CBM/files/8450350/confusion_matrix_9classes.pdf)
 
+![confusion_matrix_9classes](https://user-images.githubusercontent.com/16919172/162403537-261fa561-817b-4c6b-a887-b305e71b0e2a.png)
